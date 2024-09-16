@@ -1,79 +1,31 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Wallet App
 
-# Getting Started
+<!-- Adicione aqui as imagens do aplicativo -->
+<p float="left">
+  <img src="https://drive.google.com/uc?export=download&id=15uGuzkmZs0j5xrHUx50mPJPTn6ZK_fIy" />
+  <img src="https://drive.google.com/uc?export=download&id=17VVjji5dJQi0GESx_M6TruHin_BDysYX" />
+  <img src="https://drive.google.com/uc?export=download&id=1NX2bv98n8sndV24k7TDxUFx_7CjyDcQu" />
+</p>
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Descrição
 
-## Step 1: Start the Metro Server
+O **Wallet** é um projeto desenvolvido com o intuito de explorar e aprender novas ferramentas e bibliotecas no desenvolvimento mobile com **React Native**. Este aplicativo não tem como objetivo ser uma aplicação de carteira digital real, mas sim um ambiente para aplicar conceitos e boas práticas de desenvolvimento. 
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+O projeto foi criado para me ajudar a desenvolver utilizando as seguintes bibliotecas:
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- **Zod**: Para validação de dados.
+- **react-hook-form**: Para gerenciamento de formulários de forma eficiente.
+- **nativewind**: Para estilização responsiva e uso do Tailwind no React Native.
+- **VictoryChart**: Para visualização de gráficos e dados.
+- **Redux Toolkit**: Para gerenciamento de estado global.
+- **React-Native-Paper**: Para uso de componentes de interface de usuário pré-construídos.
+- **react-native-google-signin**: Para integração com autenticação via Google.
 
-```bash
-# using npm
-npm start
+## Conceitos Abordados
 
-# OR using Yarn
-yarn start
-```
+Além do uso das bibliotecas mencionadas, este projeto permitiu que eu aprendesse e praticasse os seguintes conceitos:
 
-## Step 2: Start your Application
+- **Padrão MVVM (Model-View-ViewModel)**: Separando responsabilidades para criar uma estrutura de código mais modular e de fácil manutenção.
+- **Otimização de FlatList**: Implementando técnicas para melhorar o desempenho ao trabalhar com listas grandes no React Native.
+- **Responsividade**: Garantindo que o aplicativo funcione corretamente em diferentes dispositivos e tamanhos de tela, utilizando `nativewind` e estratégias de design responsivo.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
