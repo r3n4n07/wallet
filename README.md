@@ -2,9 +2,9 @@
 
 <!-- Adicione aqui as imagens do aplicativo -->
 <p float="left">
-  <img src="https://drive.google.com/uc?export=download&id=15uGuzkmZs0j5xrHUx50mPJPTn6ZK_fIy" />
-  <img src="https://drive.google.com/uc?export=download&id=17VVjji5dJQi0GESx_M6TruHin_BDysYX" />
-  <img src="https://drive.google.com/uc?export=download&id=1NX2bv98n8sndV24k7TDxUFx_7CjyDcQu" />
+  <img src="https://drive.google.com/uc?export=download&id=15uGuzkmZs0j5xrHUx50mPJPTn6ZK_fIy" width="200"/>
+  <img src="https://drive.google.com/uc?export=download&id=17VVjji5dJQi0GESx_M6TruHin_BDysYX" width="200"/>
+  <img src="https://drive.google.com/uc?export=download&id=1NX2bv98n8sndV24k7TDxUFx_7CjyDcQu" width="200"/>
 </p>
 
 ## Descrição
